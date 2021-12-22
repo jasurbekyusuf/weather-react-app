@@ -1,0 +1,12 @@
+.app-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #212121;
+}
+
+@media (max-width: 1000px) {
+    .app-wrapper {
+        height: auto;
+    }
+}
